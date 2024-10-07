@@ -1,0 +1,227 @@
+
+@font-face{
+    font-family: bic;
+    src: url(./blinking_2/Blinking\ Free.ttf);
+}
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 80 0 0 0;
+    background-color: #010326;
+    /* font-family: "Poppins", sans-serif; */
+    color: #F25C05;
+   
+}
+
+
+
+
+header{
+    background-color: #f4f4f400;
+    padding: 75px 0 10px;
+    text-align: center;
+   line-height: 50px;
+}
+
+
+
+
+header h1{
+    margin: 0;
+    color: #336699;
+    background-color: #010326;
+    font-family: bic;
+    font-size: 40px; 
+}
+
+
+
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00000000;
+    padding: 0px;
+    box-sizing:content-box
+}
+
+
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+
+
+
+
+   
+}
+
+
+
+
+nav ul li a{
+    color:  #9e9d9dbe;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.6s;
+    box-shadow: 3px 3px 10px #95dcfda6;
+   
+   
+}
+nav ul li a:hover{
+    color:#ff6600;
+ 
+
+
+}
+
+
+
+
+main{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+h2{
+    color: #491721;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+
+
+
+table, th, td{
+    border: 1px solid #fff3f3;
+    padding: 10px;
+    text-align: left;
+    background-color: #0E53A9;
+    color: #ffffff
+}
+
+
+
+
+td{
+    background-color: rgba(83, 83, 83, 0.411);
+}
+
+
+
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    
+    
+}
+
+
+
+img{
+    width: 195px;
+    /* height: auto; */
+    height: 190px;
+    
+
+ 
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 50px;
+    
+}
+
+
+form label{
+    margin-top: 10px;
+    border-radius: 50px;
+    
+}
+
+
+
+
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    border-color: #b701ff4d;
+}
+
+
+
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    color: #f103dd;
+    /* border: none; */
+    cursor: pointer;
+    background-color: #000000d0;
+    border-radius: 90px;
+    transition: 0.3s;
+    
+}
+
+button:hover{
+    color: rgb(255, 0, 43);
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.10);
+    border-color: red;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
